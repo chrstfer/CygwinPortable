@@ -10,15 +10,15 @@ Let's assume that your USB flash drive is on `E:`.
 
 1. Install the PortableApps platform to your flash drive.
 
-2. Create a folder at `E:\PortableApps\CygwinPortable`.
+2. Create a folder at `E:\CygwinPortable`.
 
-3. Download Cygwin and place `setup.exe` in the directory you just created. Rename it to `cygwinConfig.exe` (this allows you to run it without administrator privileges).
+3. Download Cygwin and place `setup.exe` in the directory you just created. Rename it to `cygwinConfig.exe`. Download the cygInstall.bat file in the same directory, and run it. 
 
 4. Install Cygwin.
 	- Set the root directory to `E:\PortableApps\CygwinPortable`. 
 	- Install for "Just me".
 	- Set the local package directory to `E:\PortableApps\CygwinPortable\packages`.
-	- Besides the defaults, install `git`, `vim`, `source-highlight` and the entire `X11` category.
+	- Besides the defaults, install `git`, `vim`, `source-highlight` and the entire `X11` category (if X is desired).
 	- Do not create shortcuts when you get to the last screen of the install.
 
 5. Launch Cygwin-Terminal. Clone this repo into the root Cygwin directory:
